@@ -36,3 +36,73 @@
     </div>
 </body>
 </html>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #F4F4F4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.container {
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.container2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.encomenda, ul {
+    background: #d76483;
+    color: white;
+    list-style: none;
+    border-radius: 16px;
+    width: 450px;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+.bnt {
+    display: inline-block;
+    background: #d76483;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background 0.10s ease-in;
+}
+
+.bnt:hover {
+    background: #b23a5b;
+}
+
+.foto {
+    display: inline-block;
+    align-items: center;
+    width: 200px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 50px;
+}
